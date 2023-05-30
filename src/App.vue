@@ -56,6 +56,12 @@ const c = strArr.reduce((pre,cur)=>{
   return !pre.includes(cur) ? pre.concat([cur]) : pre
 },[])
 console.log(c)
+[1,3,4,2]
+const shuffle = (arr: number[]): number[] =>{
+  let list = arr.slice()
+
+  return list.sort(()=>0.5 - Math.random())
+}
 </script>
 
 <template>
