@@ -81,6 +81,7 @@ Function.prototype.myCall = function (contex, ...rest) {
 }
 sayName.myCall(obj, 18, 19, 10)
 console.log('v0.5bug修复完毕')
+console.log('v0.51bug修复完毕')
 </script>
 
 <template>
